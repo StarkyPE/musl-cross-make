@@ -38,7 +38,6 @@ jobs:
           sudo apt install libtool
           sudo apt install m4
           sudo apt install wget
-          sudo apt install getconf
           sudo apt install gzip
           sudo apt install bzip2
           sudo apt install bison
