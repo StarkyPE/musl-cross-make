@@ -31,21 +31,21 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Get requirements
         run: |
-          apt install make
-          apt install autoconf
-          apt install automake
-          apt install libtool
-          apt install m4
-          apt install wget
-          apt install getconf
-          apt install gzip
-          apt install bzip2
-          apt install bison
-          apt install g++
-          apt install git
-          apt install cmake
-          apt install pkg-config
-          apt install re2c
+          sudo apt install make
+          sudo apt install autoconf
+          sudo apt install automake
+          sudo apt install libtool
+          sudo apt install m4
+          sudo apt install wget
+          sudo apt install getconf
+          sudo apt install gzip
+          sudo apt install bzip2
+          sudo apt install bison
+          sudo apt install g++
+          sudo apt install git
+          sudo apt install cmake
+          sudo apt install pkg-config
+          sudo apt install re2c
         
       - name: Clone and Run
         run: | 
